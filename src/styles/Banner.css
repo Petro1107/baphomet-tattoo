@@ -1,0 +1,21 @@
+.banner-container {
+  height: 300px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  background-attachment: fixed;
+}
+
+.banner-container img {
+  position: relative;
+  top: 300px;
+  width: 100%;
+}
+
+@media (max-width: 1500px) {
+  .banner-container img {
+    top: 0px;
+  }
+}
+
+/* EMPEZAR ESTILO MOBILE FIRST */
