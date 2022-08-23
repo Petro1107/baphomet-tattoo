@@ -1,0 +1,9 @@
+.carousel {
+  height: 40vh;
+}
+
+img {
+  height: 40vh;
+  object-fit: cover;
+  object-position: center;
+}

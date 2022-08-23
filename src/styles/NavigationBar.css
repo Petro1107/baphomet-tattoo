@@ -1,0 +1,11 @@
+.dropdown-menu {
+  background-color: #3e3e3e;
+}
+
+.dropdown-menu a {
+  color: white;
+}
+
+a.nav-link {
+  color: red;
+}

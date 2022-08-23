@@ -3,19 +3,26 @@
   overflow: hidden;
   display: flex;
   align-items: center;
+  background-image: url('../components/images/baphomet.jpg');
+  background-size: cover;
+  background-position: center;
   background-attachment: fixed;
 }
 
-.banner-container img {
+/* Mantener comentarios hasta versión final por si tengo que volver atrás
+aunque técnicamente podría hacerlo con git*/
+
+/* .banner-container img {
+  background-attachment: fixed;
   position: relative;
   top: 300px;
   width: 100%;
-}
+} */
 
-@media (max-width: 1500px) {
+/* @media (max-width: 1500px) {
   .banner-container img {
     top: 0px;
   }
-}
+} */
 
 /* EMPEZAR ESTILO MOBILE FIRST */
