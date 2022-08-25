@@ -16,3 +16,6 @@
   margin: auto 15px;
   margin-bottom: 30px;
 }
+
+/* Para los mediaqueris despues del breakpoint el texto 
+al 50% del widht máximo para que no quede todo en una sola línea */

@@ -4,6 +4,7 @@ import Banner from './components/Banner';
 import Portrait from './components/Portrait';
 import InfoSection from './components/InfoSection';
 import Slides from './components/Slides';
+import Galery from './components/Galery';
 // EMPEZAR ESTILO MOBILE FIRST
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <InfoSection />
       <Slides />
       <InfoSection />
+      <Galery />
     </>
   );
 }

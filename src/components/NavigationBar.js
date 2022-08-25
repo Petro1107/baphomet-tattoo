@@ -6,11 +6,9 @@ import '../styles/NavigationBar.css';
 
 // EMPEZAR ESTILO MOBILE FIRST
 
-{
-  /* Hay que arreglar el estilo de las letras de fondo, quiero que sea todo rojo,
+/* Hay que arreglar el estilo de las letras de fondo, quiero que sea todo rojo,
 pero el estilo de bootstrap me pisa, parece que tuviese algún tipo de prioridad,
 porque solo pasa con los links del navbar pero no con los de los desplegables. */
-}
 
 function NavigationBar() {
   return (
