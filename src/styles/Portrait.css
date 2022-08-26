@@ -25,4 +25,13 @@
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  color: #aaaaaa;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portrait-container p {
+  margin: auto 25px;
 }
