@@ -1,0 +1,22 @@
+.formContainer {
+  background-color: #343a40;
+  /* color: #d6ffff; */
+  box-shadow: 0px -4px 10px black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.optSelect {
+  background-color: #3e3e3e;
+  width: 50vw;
+}
+
+.optSelect option {
+  background-color: #343a40;
+}
+
+.formText {
+  color: #d6ffff;
+}

@@ -1,0 +1,231 @@
+[
+  {
+    "id": 1,
+    "value": "cabeza",
+    "label": "Cabeza",
+    "sizeOptions": [
+      {
+        "size": "5 x 5",
+        "price": 3000
+      },
+      {
+        "size": "5 x 10",
+        "price": 4000
+      },
+      {
+        "size": "10 x 10",
+        "price": 5000
+      },
+      {
+        "size": "15 x 10",
+        "price": 4000
+      }
+    ]
+  },
+
+  {
+    "id": 2,
+    "value": "torso",
+    "label": "Torso",
+    "sizeOptions": [
+      {
+        "size": "5 x 5",
+        "price": 3000
+      },
+      {
+        "size": "5 x 10",
+        "price": 4000
+      },
+      {
+        "size": "10 x 10",
+        "price": 5000
+      },
+      {
+        "size": "15 x 10",
+        "price": 4000
+      },
+      {
+        "size": "15 x 15",
+        "price": 5000
+      },
+      {
+        "size": "20 x 15",
+        "price": 6000
+      },
+      {
+        "size": "20 x 20",
+        "price": 7000
+      },
+      {
+        "size": "30 x 15",
+        "price": 8000
+      },
+      {
+        "size": "30 x 30",
+        "price": 10000
+      }
+    ]
+  },
+
+  {
+    "id": 3,
+    "value": "vientre",
+    "label": "Vientre",
+    "sizeOptions": [
+      {
+        "size": "5 x 5",
+        "price": 3000
+      },
+      {
+        "size": "5 x 10",
+        "price": 4000
+      },
+      {
+        "size": "10 x 10",
+        "price": 5000
+      },
+      {
+        "size": "15 x 10",
+        "price": 4000
+      },
+      {
+        "size": "15 x 15",
+        "price": 5000
+      },
+      {
+        "size": "20 x 15",
+        "price": 6000
+      },
+      {
+        "size": "20 x 20",
+        "price": 7000
+      },
+      {
+        "size": "30 x 15",
+        "price": 8000
+      },
+      {
+        "size": "30 x 30",
+        "price": 10000
+      }
+    ]
+  },
+
+  {
+    "id": 4,
+    "value": "espalda",
+    "label": "Espalda",
+    "sizeOptions": [
+      {
+        "size": "5 x 5",
+        "price": 3000
+      },
+      {
+        "size": "5 x 10",
+        "price": 4000
+      },
+      {
+        "size": "10 x 10",
+        "price": 5000
+      },
+      {
+        "size": "15 x 10",
+        "price": 4000
+      },
+      {
+        "size": "15 x 15",
+        "price": 5000
+      },
+      {
+        "size": "20 x 15",
+        "price": 6000
+      },
+      {
+        "size": "20 x 20",
+        "price": 7000
+      },
+      {
+        "size": "30 x 15",
+        "price": 8000
+      },
+      {
+        "size": "30 x 30",
+        "price": 10000
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "value": "brazo",
+    "label": "Brazo",
+    "sizeOptions": [
+      {
+        "size": "5 x 5",
+        "price": 3000
+      },
+      {
+        "size": "5 x 10",
+        "price": 4000
+      },
+      {
+        "size": "10 x 10",
+        "price": 5000
+      },
+      {
+        "size": "15 x 10",
+        "price": 4000
+      },
+      {
+        "size": "15 x 15",
+        "price": 5000
+      },
+      {
+        "size": "20 x 15",
+        "price": 6000
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "value": "pierna",
+    "label": "Pierna",
+    "sizeOptions": [
+      {
+        "size": "5 x 5",
+        "price": 3000
+      },
+      {
+        "size": "5 x 10",
+        "price": 4000
+      },
+      {
+        "size": "10 x 10",
+        "price": 5000
+      },
+      {
+        "size": "15 x 10",
+        "price": 4000
+      },
+      {
+        "size": "15 x 15",
+        "price": 5000
+      },
+      {
+        "size": "20 x 15",
+        "price": 6000
+      },
+      {
+        "size": "20 x 20",
+        "price": 7000
+      },
+      {
+        "size": "30 x 15",
+        "price": 8000
+      },
+      {
+        "size": "30 x 20",
+        "price": 9000
+      }
+    ]
+  }
+]

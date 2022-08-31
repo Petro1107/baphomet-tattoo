@@ -76,7 +76,7 @@ function Galery() {
 
       <div className='galery-container'>
         {images.map((image, index) => {
-          console.log(image);
+          // console.log(image);
           return (
             // <div className='galery-item'>
             <img
