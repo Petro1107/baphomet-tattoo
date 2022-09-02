@@ -5,6 +5,42 @@ import { useState } from 'react';
 
 import '../styles/CalcForm.css';
 
+//Custom Styles React Select
+
+const customStyles = {
+  control: (provided, state) => ({
+    ...provided,
+    backgroundColor: state.isDisabled ? '#6f6f6f' : '#3e3e3e',
+    color: 'red',
+    borderColor: state.isFocused ? 'black' : 'white',
+  }),
+
+  input: (provided, state) => ({
+    ...provided,
+    color: '#c3c3c3',
+  }),
+
+  placeholder: (provided, state) => ({
+    ...provided,
+    color: '#c3c3c3',
+  }),
+
+  singleValue: (provided, state) => ({
+    ...provided,
+    color: '#c3c3c3',
+  }),
+
+  option: (provided, state) => ({
+    ...provided,
+    borderBottom: '1px dotted #c3c3c3',
+    backgroundColor: state.isFocused ? '#2a2a2a' : '#3d3d3d',
+    width: '50vw',
+    color: '#c3c3c3',
+  }),
+};
+
+/* ---------------------------------- ---------------------*/
+
 function CalcForm() {
   // STATES
 
@@ -48,13 +84,17 @@ function CalcForm() {
       <br />
       <p className='formText'>Zona</p>
       <Select
+        styles={customStyles}
         options={options}
         onChange={handleZoneChange}
+        // className='react-select-container'
+        // classNamePrefix='react-select'
         className='optSelect'
       />
       <br />
       <p className='formText'>Tamaño </p>
       <Select
+        styles={customStyles}
         options={sizeOptions.map((item) => {
           return { label: item.size, value: item.price };
         })}
@@ -65,6 +105,7 @@ function CalcForm() {
       <br />
       <p className='formText'>Colores</p>
       <Select
+        styles={customStyles}
         options={colorOptions}
         isDisabled={colorEnabled}
         onChange={handleColorChange}
