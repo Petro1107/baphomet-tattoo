@@ -14,7 +14,7 @@
 } */
 
 .portrait-container {
-  height: 812px;
+  height: 100vh;
   background-image: linear-gradient(
       to bottom,
       rgba(38, 43, 71, 0.52),
@@ -34,4 +34,8 @@
 
 .portrait-container p {
   margin: auto 25px;
+  font-size: 1.7rem;
+  max-width: 1300px;
+  text-shadow: -3px 3px rgba(0, 0, 0, 0.3);
+  font-style: italic;
 }
