@@ -7,7 +7,7 @@ import { Link } from 'react-scroll';
 function NavigationBar() {
   return (
     <>
-      <Navbar bg='dark' expand='md' variant='dark'>
+      <Navbar bg='dark' expand='md' variant='dark' sticky='top'>
         <Navbar.Toggle aria-controls='basic-navbar-nav' />
         <Navbar.Collapse id='basic-navbar-nav'>
           <Nav className='m-auto'>

@@ -3,10 +3,31 @@
   overflow: hidden;
   display: flex;
   align-items: center;
+  justify-content: center;
   background-image: url('../components/images/baphomet.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+}
+
+.banner-container div {
+  font-family: 'Uncial Antiqua', cursive;
+  color: #c9c9c9;
+  font-size: 4rem;
+  font-weight: 700;
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  text-shadow: -2px -2px rgba(0, 0, 0, 0.5);
+  margin-top: 40px;
+}
+
+@media (min-width: 900px) {
+  .banner-container div {
+    writing-mode: horizontal-tb;
+    text-orientation: sideways;
+    font-size: 7rem;
+    text-align: center;
+  }
 }
 
 /* Mantener comentarios hasta versión final por si tengo que volver atrás

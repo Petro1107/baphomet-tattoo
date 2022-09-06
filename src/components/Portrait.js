@@ -1,11 +1,19 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../styles/Portrait.css';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 function Portrait() {
+  useEffect(() => {
+    Aos.init({
+      duration: 2000,
+    });
+  }, []);
+
   return (
     <div className='section'>
       <div className='portrait-container'>
-        <p>
+        <p data-aos='fade-right' data-aos-once={true}>
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut

@@ -7,6 +7,8 @@
   padding: 15px;
 }
 
+/* AGREGAR OVERLAY DE LADO A LADO CONTRANSICIÓN COMO CAPA DE
+FILM OSCURO */
 .galery-img {
   object-fit: cover;
   width: 300px;

@@ -1,21 +1,23 @@
 import React from 'react';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faCircleChevronLeft,
   faCircleChevronRight,
   faCircleXmark,
 } from '@fortawesome/free-solid-svg-icons';
-
-/* import { RViewer, RViewerTrigger } from 'react-viewerjs'; 
-RViewer genera un bug... el trigger no se ejecuta correctamente
-y al momento de clickear la imagen queda una pantalla en blanco
-con varios errores en consola.
-*/
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 import '../styles/Galery.css';
 
 function Galery() {
+  useEffect(() => {
+    Aos.init({
+      duration: 2000,
+    });
+  }, []);
+
   let images = [];
 
   for (let i = 1; i < 14; i++) {
@@ -80,6 +82,8 @@ function Galery() {
           return (
             // <div className='galery-item'>
             <img
+              data-aos='flip-left'
+              data-aos-once={true}
               src={image.img}
               alt='tattoo'
               className='galery-img'
