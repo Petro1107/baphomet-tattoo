@@ -1,0 +1,22 @@
+Bugs a corregir 
+
+
+______________________________
+Barra de navegación:
+
+En el modo colapasado el menú de bootstrap solo se muestra hacia abajo.
+El resaltado de las opciones del menu al estar con el screen sobre la sección
+se bugea ya que se activa al momento de llegar a esa parte del screen, 
+por lo que en las últimas dos secciones (precio y contacto),
+nunca se llega a iluminar. Debería directamente eliminar es active
+o tratar de corregirlo.
+La barra de navegación podría empezar por hacerla toda denuevo.
+______________________________
+
+Modal de pictures:
+
+El modal que se abre al dar click en las fotos quedó con el botón
+para cerrarlo debajo de la barra de navegación,
+estimo que por el ZIndex del css.
+También debería revisar como responde al touch.
+

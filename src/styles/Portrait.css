@@ -34,8 +34,14 @@
 
 .portrait-container p {
   margin: auto 25px;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   max-width: 1300px;
   text-shadow: -3px 3px rgba(0, 0, 0, 0.3);
   font-style: italic;
+}
+
+@media (min-width: 1200px) {
+  .portrait-container p {
+    font-size: 1.7rem;
+  }
 }

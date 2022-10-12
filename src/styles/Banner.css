@@ -30,6 +30,14 @@
   }
 }
 
+@media (max-height: 699px) {
+  .banner-container div {
+    writing-mode: horizontal-tb;
+    text-orientation: sideways;
+    text-align: center;
+  }
+}
+
 /* Mantener comentarios hasta versión final por si tengo que volver atrás
 aunque técnicamente podría hacerlo con git*/
 
