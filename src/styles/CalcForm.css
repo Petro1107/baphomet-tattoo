@@ -18,34 +18,57 @@
 
 .formText {
   color: #c3c3c3;
+  margin-top: 16px;
+  margin-bottom: 8px;
 }
 
-/* .react-select-container {
+.contactSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #c3c3c3;
+}
+
+.contactSection input,
+.contactSection textarea {
+  color: #c3c3c3;
+  background-color: #3e3e3e;
+  border: solid 1px #f8f9fa;
+  border-radius: 4px;
   width: 50vw;
-  color: #d6ffff;
 }
 
-.react-select__value-container {
-  background-color: #343a40;
-  color: #d6ffff;
+.contactSection label {
+  margin-top: 16px;
 }
 
-.react-select__input {
-  background-color: #343a40;
-  color: #d6ffff;
+.contactSection input {
+  height: 36px;
 }
 
-.react-select__indicators {
-  background-color: #343a40;
-  color: #d6ffff;
+.btnSubmit {
+  color: #c3c3c3;
+  background-color: #3e3e3e;
+  border: solid 1px #f8f9fa;
+  border-radius: 4px;
+  margin: 16px 0px 16px auto;
+  width: 100px;
+  height: 35px;
+  padding-bottom: 4px;
 }
 
-.react-select__menu-list {
+.btnSubmit:hover {
   background-color: #343a40;
-  color: #d6ffff;
+  color: #f8f9fa;
 }
 
-.react-select__option {
-  background-color: #343a40;
-  color: #d6ffff;
-} */
+/* Inputs invisibles para valores de EmailJS */
+
+.priceInfo {
+  display: none;
+}
+
+.sizeValue {
+  display: none;
+}

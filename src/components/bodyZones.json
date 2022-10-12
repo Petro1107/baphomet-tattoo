@@ -5,19 +5,19 @@
     "label": "Cabeza",
     "sizeOptions": [
       {
-        "size": "5 x 5",
+        "value": "5 x 5",
         "price": 3000
       },
       {
-        "size": "5 x 10",
+        "value": "5 x 10",
         "price": 4000
       },
       {
-        "size": "10 x 10",
+        "value": "10 x 10",
         "price": 5000
       },
       {
-        "size": "15 x 10",
+        "value": "15 x 10",
         "price": 4000
       }
     ]
@@ -29,39 +29,39 @@
     "label": "Torso",
     "sizeOptions": [
       {
-        "size": "5 x 5",
+        "value": "5 x 5",
         "price": 3000
       },
       {
-        "size": "5 x 10",
+        "value": "5 x 10",
         "price": 4000
       },
       {
-        "size": "10 x 10",
+        "value": "10 x 10",
         "price": 5000
       },
       {
-        "size": "15 x 10",
+        "value": "15 x 10",
         "price": 4000
       },
       {
-        "size": "15 x 15",
+        "value": "15 x 15",
         "price": 5000
       },
       {
-        "size": "20 x 15",
+        "value": "20 x 15",
         "price": 6000
       },
       {
-        "size": "20 x 20",
+        "value": "20 x 20",
         "price": 7000
       },
       {
-        "size": "30 x 15",
+        "value": "30 x 15",
         "price": 8000
       },
       {
-        "size": "30 x 30",
+        "value": "30 x 30",
         "price": 10000
       }
     ]
@@ -73,39 +73,39 @@
     "label": "Vientre",
     "sizeOptions": [
       {
-        "size": "5 x 5",
+        "value": "5 x 5",
         "price": 3000
       },
       {
-        "size": "5 x 10",
+        "value": "5 x 10",
         "price": 4000
       },
       {
-        "size": "10 x 10",
+        "value": "10 x 10",
         "price": 5000
       },
       {
-        "size": "15 x 10",
+        "value": "15 x 10",
         "price": 4000
       },
       {
-        "size": "15 x 15",
+        "value": "15 x 15",
         "price": 5000
       },
       {
-        "size": "20 x 15",
+        "value": "20 x 15",
         "price": 6000
       },
       {
-        "size": "20 x 20",
+        "value": "20 x 20",
         "price": 7000
       },
       {
-        "size": "30 x 15",
+        "value": "30 x 15",
         "price": 8000
       },
       {
-        "size": "30 x 30",
+        "value": "30 x 30",
         "price": 10000
       }
     ]
@@ -117,39 +117,39 @@
     "label": "Espalda",
     "sizeOptions": [
       {
-        "size": "5 x 5",
+        "value": "5 x 5",
         "price": 3000
       },
       {
-        "size": "5 x 10",
+        "value": "5 x 10",
         "price": 4000
       },
       {
-        "size": "10 x 10",
+        "value": "10 x 10",
         "price": 5000
       },
       {
-        "size": "15 x 10",
+        "value": "15 x 10",
         "price": 4000
       },
       {
-        "size": "15 x 15",
+        "value": "15 x 15",
         "price": 5000
       },
       {
-        "size": "20 x 15",
+        "value": "20 x 15",
         "price": 6000
       },
       {
-        "size": "20 x 20",
+        "value": "20 x 20",
         "price": 7000
       },
       {
-        "size": "30 x 15",
+        "value": "30 x 15",
         "price": 8000
       },
       {
-        "size": "30 x 30",
+        "value": "30 x 30",
         "price": 10000
       }
     ]
@@ -160,27 +160,27 @@
     "label": "Brazo",
     "sizeOptions": [
       {
-        "size": "5 x 5",
+        "value": "5 x 5",
         "price": 3000
       },
       {
-        "size": "5 x 10",
+        "value": "5 x 10",
         "price": 4000
       },
       {
-        "size": "10 x 10",
+        "value": "10 x 10",
         "price": 5000
       },
       {
-        "size": "15 x 10",
+        "value": "15 x 10",
         "price": 4000
       },
       {
-        "size": "15 x 15",
+        "value": "15 x 15",
         "price": 5000
       },
       {
-        "size": "20 x 15",
+        "value": "20 x 15",
         "price": 6000
       }
     ]
@@ -191,39 +191,39 @@
     "label": "Pierna",
     "sizeOptions": [
       {
-        "size": "5 x 5",
+        "value": "5 x 5",
         "price": 3000
       },
       {
-        "size": "5 x 10",
+        "value": "5 x 10",
         "price": 4000
       },
       {
-        "size": "10 x 10",
+        "value": "10 x 10",
         "price": 5000
       },
       {
-        "size": "15 x 10",
+        "value": "15 x 10",
         "price": 4000
       },
       {
-        "size": "15 x 15",
+        "value": "15 x 15",
         "price": 5000
       },
       {
-        "size": "20 x 15",
+        "value": "20 x 15",
         "price": 6000
       },
       {
-        "size": "20 x 20",
+        "value": "20 x 20",
         "price": 7000
       },
       {
-        "size": "30 x 15",
+        "value": "30 x 15",
         "price": 8000
       },
       {
-        "size": "30 x 20",
+        "value": "30 x 20",
         "price": 9000
       }
     ]
